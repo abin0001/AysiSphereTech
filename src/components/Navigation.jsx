@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Logo from '../img/Logo.png';
-import MenuIcon from '@mui/icons-material/Menu';
 
 
 const Navigation = () => {
