@@ -1,15 +1,22 @@
 import './App.css';
 import Navigation from "./components/Navigation"
+import LandingPage from "./components/LandingPage/LandingPage.jsx"
 
 function App() {
   return (
-    <div className="App">
+    <div className="App scroll-smooth"> 
+    
+          <Navigation>
 
+          </Navigation>
    
+   
+          <LandingPage/>
       
-        <Navigation>
 
-    </Navigation>
+    
+      
+   
 
 
   
