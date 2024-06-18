@@ -97,5 +97,4 @@ import {
       </div>
     );
   };
-  
   export default Footer;
