@@ -4,22 +4,11 @@ import LandingPage from "./components/LandingPage/LandingPage.jsx"
 
 function App() {
   return (
-    <div className="App scroll-smooth"> 
+    <div className="App"> 
     
           <Navigation>
-
           </Navigation>
-   
-   
           <LandingPage/>
-      
-
-    
-      
-   
-
-
-  
     </div>
   );
 }
