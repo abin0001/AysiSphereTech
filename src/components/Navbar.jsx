@@ -9,7 +9,8 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
+
+      <a href="/"><img src={logo} alt="Aysisphere" className="w-[150px] h-[60px]" /></a>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
@@ -23,7 +24,13 @@ const Navbar = () => {
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
         ))}
+
       </ul>
+
+      <button className="text-black w-40 ml-20 mr-20 h-10 bg-[#00fffc] hover:shadow-2xl hover:shadow-[#00fffc] rounded-xl font-bold ">Join</button>
+
+
+      
 
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <img
