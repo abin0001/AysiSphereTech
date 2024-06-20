@@ -27,11 +27,6 @@ const Navbar = () => {
 
       </ul>
 
-      <button className="text-black w-40 ml-20 mr-20 h-10 bg-[#00fffc] hover:shadow-2xl hover:shadow-[#00fffc] rounded-xl font-bold ">Join</button>
-
-
-      
-
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <img
           src={toggle ? close : menu}

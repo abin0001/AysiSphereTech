@@ -10,10 +10,6 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "features",
-    title: "Features",
-  },
-  {
     id: "service",
     title: "Service",
   },
@@ -24,6 +20,10 @@ export const navLinks = [
   {
     id: "clients",
     title: "Clients",
+  },
+  {
+    id: "contact",
+    title: "Contact",
   },
 ];
 
@@ -76,6 +76,14 @@ export const feedback = [
     title: "Founder & Leader",
     img: people03,
   },
+  // {
+  //   id: "feedback-3",
+  //   content:
+  //     "It is usually people in the money business, finance, and international trade that are really rich.",
+  //   name: "Kenn Gallagher",
+  //   title: "Founder & Leader",
+  //   img: people03,
+  // },
 ];
 
 export const stats = [
