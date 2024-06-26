@@ -9,8 +9,7 @@ const Hero = () => {
         <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           <img src={star} alt="discount" className="w-[16px] h-[16px]" />
           <p className={`${styles.paragraph} ml-2`}>
-            Unlocking {" "}
-            <span className="text-white">Potential</span> :
+            <span className="text-white">AysiSphere Infotech</span> :
           </p>
         </div>
 
@@ -27,8 +26,8 @@ const Hero = () => {
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
         for Every Small Business.
         </h1>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        We makes powerful technology simple for every small business. We empower you to streamline operations, reach new customers, and watch your dreams take flight.
+        <p className={`${styles.paragraph} max-w-[500px] mt-5`}>
+            We're not just about technology; we're about growth. Our expert team unlocks the potential of your business with next-generation microservices. We break down complex solutions into bite-sized, manageable pieces, allowing you to scale, innovate, and dominate your market.
         </p>
       </div>
 
