@@ -26,8 +26,8 @@ const Hero = () => {
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
         for Every Small Business.
         </h1>
-        <p className={`${styles.paragraph} max-w-[500px] mt-5`}>
-            We're not just about technology; we're about growth. Our expert team unlocks the potential of your business with next-generation microservices. We break down complex solutions into bite-sized, manageable pieces, allowing you to scale, innovate, and dominate your market.
+        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+           We're not just about technology; we're about growth. Our expert team unlocks the potential of your business with next-generation microservices. We break down complex solutions into bite-sized, manageable pieces, allowing you to scale, innovate, and dominate your market.
         </p>
       </div>
 
