@@ -10,8 +10,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "service",
-    title: "Service",
+    id: "services",
+    title: "Services",
   },
   {
     id: "work",
@@ -31,23 +31,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Software Development",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Our team of skilled developers leverages cutting-edge technologies to create applications that meet your specific requirements and streamline your operations."
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Microservices Architecture",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+    "We break down complex applications into smaller,independent components, allowing for faster development cycles and easier maintenance."
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Online Training Programs",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "We offer a variety of courses covering the latest technologies,empowering your employees to stay ahead of the curve.",
   },
 ];
 
