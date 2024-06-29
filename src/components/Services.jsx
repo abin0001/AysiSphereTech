@@ -18,20 +18,20 @@ const FeatureCard = ({ icon, title, content, index }) => (
   </div>
 );
 
-const Business = () =>  (
-  <section id="features" className={layout.section}>
+const Services = () =>  (
+  <section id="services" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        You do the business, <br className="sm:block hidden" /> we’ll handle
-        the money.
+        Our Services and Solutions
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        With the right credit card, you can improve your financial life by
-        building credit, earning rewards and saving money. But with hundreds
-        of credit cards on the market.
+      From concept to execution, AysiSphere is your one-stop shop for all your technology needs.  We equip small and medium-sized businesses with the tools and expertise to thrive in the digital age.  Our comprehensive suite of services
       </p>
 
-      <Button styles={`mt-10`} />
+      <button type="button" className={`py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none mt-5 ${styles}`}>
+         Explore our Services
+      </button>
+
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>
@@ -42,4 +42,5 @@ const Business = () =>  (
   </section>
 );
 
-export default Business;
+export default Services;
+
