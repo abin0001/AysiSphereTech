@@ -13,7 +13,7 @@ const Billing = () => (
 
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-      Tech for Tomorrow's Businesses
+      Tech for Tomorrow's <br className="sm:block hidden" /> Businesses
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         We see the future of business, and it's built on innovation. We're not just a tech company; we're a strategic partner, helping small and medium-sized businesses leverage the power of next-generation technology to thrive in a rapidly evolving landscape.</p>
