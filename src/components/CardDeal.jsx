@@ -32,7 +32,7 @@ import card2 from "../assets/card2.png";
 import card3 from "../assets/card3.png";
 import styles, { layout } from "../style";
 import Button from "./Button";
-import Slider from "react-slick";
+import Slider from "react-slick";        
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
@@ -52,21 +52,14 @@ const settings = {
 const CardDeal = () => (
   <section className={layout.section} >
     <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>
-        These are my works
-      </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-       sijdaoijdaijskodmsakodjsiodjai
-      </p>
-      <Button styles={`mt-10`} />
     </div>
 
     <div className={layout.sectionImg}>
       <Slider {...settings}>
         {cardImages.map((image, index) => (
-          <div key={index}>
-            <img src={image} alt={`card${index + 1}`} className="w-[100%] h-[100%]" />
-          </div>
+
+          console.log(image)
+
         ))}
       </Slider>
     </div>
