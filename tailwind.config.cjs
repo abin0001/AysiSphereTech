@@ -43,9 +43,9 @@ module.exports = {
           '50%': { transform: 'translateY(8px)' },
         },
         pings: {
-          '75%, 100%': {transform: 'scale(2)'},
+          '75%, 100%': {transform: 'scale(1.3)'},
           '0%' :{opacity: '0'},
-          '100%' : {transform: 'translateX(-550px) translateY(-350px)'},
+          '100%' : {transform: 'translateX(-550px) translateY(-380px)'},
           }
       },
       animation: {
