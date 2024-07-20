@@ -42,6 +42,11 @@ module.exports = {
           '0%, 100%': { transform: 'translateY(0)' },
           '50%': { transform: 'translateY(8px)' },
         },
+        pings: {
+          '75%, 100%': {transform: 'scale(2)'},
+          '0%' :{opacity: '0'},
+          '100%' : {transform: 'translateX(-550px) translateY(-350px)'},
+          }
       },
       animation: {
         slideInLeft: 'slideInLeft 0.5s ease-out forwards',
@@ -51,6 +56,7 @@ module.exports = {
         slideRight: 'slideRight 15s linear infinite',
         floatUp: 'floatUp 1.5s ease-in-out infinite',
         floatDown: 'floatDown 1.5s ease-in-out infinite',
+        pings: 'pings 2s cubic-bezier(0, 0, 0.2, 1) infinite;'
       },
     },
     screens: {
