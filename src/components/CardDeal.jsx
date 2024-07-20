@@ -28,7 +28,7 @@ import React from 'react';
 import card1 from "../assets/card1.png";
 import card2 from "../assets/card2.png";
 import card3 from "../assets/card3.png";import styles, { layout } from "../style";
-import Button from "./Button";
+// import Button from "./Button";
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import 'tailwindcss/tailwind.css'; // Ensure Tailwind CSS is imported
@@ -41,14 +41,18 @@ const cardImages = [card1, card2, card3];
 const CardDeal = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>
-        These are my works
-      </h2>
+      <h2 className={`${styles.heading2} animate-pulse`}>
+      Let's see our work and
+      What we build      </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Description of your works goes here.
-      </p>
-      <Button className="mt-20" />
-    </div>
+      we make your process simple you can grow your business anywhere on the planet with our technologies.</p>
+      <button 
+    type="button" 
+    className={` animate-bounce mt-10 py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none transform transition-transform duration-300 hover:scale-125 `}
+    >view more</button>
+      </div>
+      
+
     <div className={`${layout.sectionImg} px-1 md:px-0 max-w-4xl mx-auto`}>
       <Carousel
         showArrows={true}
