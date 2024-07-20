@@ -34,7 +34,7 @@ const CTA = () => (
 
     <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
       <button className="animate-bounce py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none transform transition-transform duration-300 hover:scale-125">
-        <a href="https://wa.me/918122354855" target="_blank" rel="noopener noreferrer" className="button-class">
+        <a href="https://wa.link/4kz8eu" target="_blank" rel="noopener noreferrer" className="button-class">
         Get Started
       </a>
       </button>
