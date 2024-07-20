@@ -14,11 +14,11 @@ const SplashScreen = () => {
 
   return (
     <div
-      className={` fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75 transition-opacity duration-500 ${
+      className={` z-10 fixed inset-0  flex items-center justify-center bg-black bg-opacity-86 transition-opacity duration-500 ${
         visible ? 'opacity-100' : 'opacity-0 pointer-events-none'
       }`}
     >
-      <img src={logo} alt="Aysisphere" className="w-[300px] z-50 animate-pings h-[130px]" />
+      <img src={logo} alt="Aysisphere" className="w-[300px] animate-pings h-[130px]" />
     </div>
   );
 };
